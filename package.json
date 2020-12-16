@@ -1,0 +1,19 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tweedi4/StephaniePinoMarchant_3_08122020.git"
+  },
+  "author": "tweedi4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tweedi4/StephaniePinoMarchant_3_08122020/issues"
+  },
+  "homepage": "https://github.com/Tweedi4/StephaniePinoMarchant_3_08122020#readme"
+}
