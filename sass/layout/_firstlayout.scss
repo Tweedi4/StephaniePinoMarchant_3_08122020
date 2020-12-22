@@ -1,0 +1,18 @@
+/* layout/ dossier où mettre blocs BEM, contient ce qui est réutilisable */
+
+@import '../components/buttons';
+
+
+
+
+#main_wrapper {
+    @include flexbox();
+}
+header {
+    @include flexbox();
+    @include block_header();
+    h1 {
+        @include element_big_logo();
+        @include margins(10px);
+    }
+}  

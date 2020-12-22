@@ -1,0 +1,58 @@
+/*  pages/ contient blocs de code ne s'appliquant qu'à une seule page  */
+
+@import'../layout/firstlayout.scss';
+
+
+.wrapper {
+    @include flexbox();
+    @include block_wrapper();
+    &__intro {
+        @include flexbox;
+        text-align: center;
+        padding-bottom: 20px;
+        &__01 {
+            @include btn--loca;
+            i {
+                margin-right: 10px;
+            }
+        }
+        &__02{
+            padding-top: 20px;
+            @include margins(20px);
+            @include font_bold();
+        }
+        &__03 {
+            @include margins(20px);
+        }
+        &__04 {
+            @include margins(20px);
+            @include btn--violet;
+        }
+    }
+    &__steps {
+        @include flexbox();
+        padding-top: 10px;
+        padding-bottom: 30px;
+        >h2 {
+            @include margins(20px);
+            @include font_bold();
+        }
+        ol {
+            @include margins (0px);
+            i {
+                margin-right: 15px;
+                margin-left: 20px;
+            }
+        li {
+            @include margins(10px);
+            .dot--violet {
+                @include dot--violet();
+            }
+            i {
+                color: $background_secondary;
+            }
+        
+        }
+    }
+}
+}

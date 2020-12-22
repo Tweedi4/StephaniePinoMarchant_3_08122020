@@ -1,3 +1,27 @@
-$colour-primary: #9356DC;
-$colour-secondary: #FF79DA;
-$colour-accent: #99E2D0;
+/* utils/  où ranger variables,fonctions,mixins et les %placeholders pour extensions */
+
+
+/* Colors */
+
+$color_primary: #9356DC;
+$color_secondary: #FF79DA;
+$color_accent: #99E2D0;
+/* header color */
+$background_primary: white;
+
+/* localisation color*/ 
+$background_secondary: lighten(grey,40%);
+
+/* footer color */
+$background_footer: #353535;
+
+/* text color */
+$text-color_1:black;
+$text-color_2:white;
+$text-color_3:lighten(grey,25%);
+$text-color_4:darken($color_accent,40%);
+
+
+/*Fonts*/
+$logo:shrikhandregular;
+$text:Roboto;
