@@ -29,6 +29,8 @@
             @include btn--violet;
         }
     }
+
+    
     &__steps {
         @include flexbox();
         padding-top: 10px;
