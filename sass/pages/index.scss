@@ -47,6 +47,7 @@
             }
         li {
             @include margins(10px);
+            @include btn--grey;
             .dot--violet {
                 @include dot--violet();
             }
@@ -57,4 +58,57 @@
         }
     }
 }
+        &__restaurants {
+            @include flexbox;
+            @include block_restaurants();
+            article {
+                @include margins(10px);
+                .btn--nouveau {
+                    @include btn--nouveau()
+                }
+            }
+            >h2 {
+                @include margins(10px);
+                @include font_bold();
+            }
+            &__photo {
+                @include element_photo();
+            }
+            &__texte {
+                @include flexbox (row,center,center,wrap);
+                @include element_photo_texte();
+                &__gauche {
+                    width: 65%;
+                    margin-left:5%;
+                    h3 {
+                        @include margins(5px,0%,100%);
+                        @include font_bold();
+                    }
+                    h4 {
+                        @include margins(5px,0%,100%);
+                    }
+                }
+                &__droite {
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    width: 25%;
+                    text-align: right;
+                    margin-right: 5%;
+                }
+            }
+            &__coeur {
+                display: inline;
+                text-align: right;
+            }
+
+        }
+
+
+
+
+
+
+
+
+
 }

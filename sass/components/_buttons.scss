@@ -25,6 +25,27 @@
     background-color: $background_primary;
 }
 
+@mixin block_restaurants {
+  font-family: $text;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: $text-color_1;
+  background-color: $background_primary;
+  
+}
+
+@mixin block_footer {
+  font-family: $text;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: $text-color_2;
+  background-color: $background_footer;
+}
+
 @mixin dot--violet() {
     position:relative;
     left: -8px;
@@ -66,3 +87,39 @@
     padding-bottom: 15px;
     border-radius: 23px 23px 23px 23px;
     }
+
+    @mixin btn--grey {
+      background-color: $background_secondary;
+      color: $text;
+      height: 18px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-radius: 16px;     
+    }
+
+    @mixin btn--nouveau {
+      width: 15%;
+      height: 35px;
+      display: block;
+      line-height: 35px;
+      text-align:center;
+      position: relative;
+      left: 75%;
+      top: 40px;
+      background-color: $color_accent;
+      border-radius: 4px;
+      color: $text-color_4;
+
+    }
+
+    @mixin element_photo() {
+      width: 100%;
+      border-radius: 15px 15px 0px 0px;
+    }
+
+    @mixin element_photo_texte {
+      background-color: $background_primary;
+      box-shadow: 0 -4px $background_primary;
+      border-radius: 0px 0px 15px 15px;
+    }
+    
