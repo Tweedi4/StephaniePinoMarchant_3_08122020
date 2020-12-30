@@ -40,7 +40,7 @@
             @include font_bold();
         }
         ol {
-            @include margins (0px);
+            @include margins(0px);
             i {
                 margin-right: 15px;
                 margin-left: 20px;

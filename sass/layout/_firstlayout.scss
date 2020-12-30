@@ -3,9 +3,20 @@
 @import '../components/buttons';
 
 
-.btn--new {
+.btn--nouveau {
     @include btn--nouveau();
 }
+
+
+.menu__entrees--btn, .menu__desserts--btn, .menu__plats--btn {
+    @include menus--btn();
+}
+
+
+
+
+
+
 
 #main_wrapper {
     @include flexbox();
@@ -22,6 +33,7 @@ footer {
     @include flexbox(column,start,start);
     @include block_footer();
     >h1 {
+        @include element_small_logo();
         @include margins(15px);
 
     }

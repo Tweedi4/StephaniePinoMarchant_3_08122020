@@ -25,3 +25,12 @@ $text-color_4:darken($color_accent,40%);
 /*Fonts*/
 $logo:shrikhandregular;
 $text:Roboto;
+
+
+$breakpoints: (
+    small: 320px,
+    medium: 768px,
+    large: 1024px,
+    x-large: 1440px,
+    xx-large: 2560px
+);

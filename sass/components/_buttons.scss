@@ -25,7 +25,7 @@
     background-color: $background_primary;
 }
 
-@mixin block_restaurants {
+@mixin block_restaurants() {
   font-family: $text;
   font-size: 16px;
   font-weight: 400;
@@ -36,7 +36,7 @@
   
 }
 
-@mixin block_footer {
+@mixin block_footer () {
   font-family: $text;
   font-size: 12px;
   font-weight: 400;
@@ -63,6 +63,15 @@
     font-style: normal;
     text-align: center;
     color:$text-color_1;
+  }
+
+  @mixin element_small_logo () {
+    font-family: $logo;
+    font-size: 16px;
+    font-weight:400;
+    font-style: normal;
+    text-align: left;
+    color: $text-color_2;
   }
 
   @mixin btn--loca {
@@ -117,9 +126,18 @@
       border-radius: 15px 15px 0px 0px;
     }
 
-    @mixin element_photo_texte {
+    @mixin element_photo_texte() {
       background-color: $background_primary;
       box-shadow: 0 -4px $background_primary;
       border-radius: 0px 0px 15px 15px;
     }
     
+
+    @mixin menus--btn {
+      background-color: $background_primary;
+      color: $text;
+      height: 18px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-radius: 16px;
+    }

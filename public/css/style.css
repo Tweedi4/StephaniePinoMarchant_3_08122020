@@ -8,14 +8,38 @@
 /*Fonts*/
 /* utils/  où ranger variables,fonctions,mixins et les %placeholders pour extensions */
 /* utils/  où ranger variables,fonctions,mixins et les %placeholders pour extensions */
-/* Fonts */
+/* FONTS */
+/* FIN FONTS */
+/*MEDIA QUERIES*/
+/*FIN MEDIA QUERIES*/
 /* utils/  où ranger variables,fonctions,mixins et les %placeholders pour extensions */
 /* base/ contient les fichiers qui définissent
 les fondations du site, comme la police de caractères 
 et les normes que vous voulez appliquer sur tout votre site */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+@media screen and (min-width: 1440px) {
+  * {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (min-width: 2560px) {
+  * {
+    font-size: 1.2rem;
+  }
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+article, figure, footer, header, menu,
+nav, section {
+  display: block;
 }
 
 body {
@@ -24,6 +48,17 @@ body {
 
 ol, ul {
   list-style: none;
+}
+
+html {
+  width: 100%;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: black;
+  background-color: white;
 }
 
 /* utils/  où ranger variables,fonctions,mixins et les %placeholders pour extensions */
@@ -35,8 +70,8 @@ ol, ul {
 /*Fonts*/
 @font-face {
   font-family: "shrikhandregular";
-  src: url("shrikhand-regular-webfont.eot");
-  src: url("Fonts/shrikhand-regular-webfont.eot?#iefix") format("embedded-opentype"), url("Font/shrikhand-regular-webfont.woff") format("woff"), url("Font/shrikhand-regular-webfont.woff2") format("woff"), url("Fonts/shrikhand-regular-webfont.ttf") format("truetype"), url("Fonts/shrikhand-regular-webfont.svg#shrikhandregular") format("svg");
+  src: url("/Fonts/shrikhand-regular.eot");
+  src: url("/Fonts/shrikhand-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/Fonts/shrikhand-regular.woff") format("woff"), url("/Fonts/shrikhand-regular.woff2") format("woff"), url("/Fonts/Shrikhand-regular.ttf") format("truetype"), url("/Fonts/shrikhand-regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -44,9 +79,30 @@ ol, ul {
 /* base/ contient les fichiers qui définissent
 les fondations du site, comme la police de caractères 
 et les normes que vous voulez appliquer sur tout votre site */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+@media screen and (min-width: 1440px) {
+  * {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (min-width: 2560px) {
+  * {
+    font-size: 1.2rem;
+  }
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+article, figure, footer, header, menu,
+nav, section {
+  display: block;
 }
 
 body {
@@ -55,6 +111,17 @@ body {
 
 ol, ul {
   list-style: none;
+}
+
+html {
+  width: 100%;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: black;
+  background-color: white;
 }
 
 /*Buttons*/
@@ -63,9 +130,30 @@ ol, ul {
 /* base/ contient les fichiers qui définissent
 les fondations du site, comme la police de caractères 
 et les normes que vous voulez appliquer sur tout votre site */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+@media screen and (min-width: 1440px) {
+  * {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (min-width: 2560px) {
+  * {
+    font-size: 1.2rem;
+  }
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+article, figure, footer, header, menu,
+nav, section {
+  display: block;
 }
 
 body {
@@ -76,8 +164,19 @@ ol, ul {
   list-style: none;
 }
 
+html {
+  width: 100%;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: black;
+  background-color: white;
+}
+
 /*Buttons*/
-.btn--new {
+.btn--nouveau {
   width: 15%;
   height: 35px;
   display: block;
@@ -89,6 +188,15 @@ ol, ul {
   background-color: #99E2D0;
   border-radius: 4px;
   color: #278870;
+}
+
+.menu__entrees--btn, .menu__desserts--btn, .menu__plats--btn {
+  background-color: white;
+  color: Roboto;
+  height: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 16px;
 }
 
 #main_wrapper {
@@ -145,6 +253,12 @@ footer {
   background-color: #353535;
 }
 footer > h1 {
+  font-family: shrikhandregular;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: white;
   width: 90%;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -168,9 +282,30 @@ footer > h2 i {
 /* base/ contient les fichiers qui définissent
 les fondations du site, comme la police de caractères 
 et les normes que vous voulez appliquer sur tout votre site */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+@media screen and (min-width: 1440px) {
+  * {
+    font-size: 1.05rem;
+  }
+}
+@media screen and (min-width: 2560px) {
+  * {
+    font-size: 1.2rem;
+  }
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+article, figure, footer, header, menu,
+nav, section {
+  display: block;
 }
 
 body {
@@ -181,8 +316,19 @@ ol, ul {
   list-style: none;
 }
 
+html {
+  width: 100%;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: black;
+  background-color: white;
+}
+
 /*Buttons*/
-.btn--new {
+.btn--nouveau {
   width: 15%;
   height: 35px;
   display: block;
@@ -194,6 +340,15 @@ ol, ul {
   background-color: #99E2D0;
   border-radius: 4px;
   color: #278870;
+}
+
+.menu__entrees--btn, .menu__desserts--btn, .menu__plats--btn {
+  background-color: white;
+  color: Roboto;
+  height: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 16px;
 }
 
 #main_wrapper {
@@ -250,6 +405,12 @@ footer {
   background-color: #353535;
 }
 footer > h1 {
+  font-family: shrikhandregular;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  color: white;
   width: 90%;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -482,6 +643,13 @@ footer > h2 i {
 .wrapper__restaurants__coeur {
   display: inline;
   text-align: right;
+}
+
+#main_wrapper {
+  width: 100%;
+}
+#main_wrapper .image-restaurant {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
