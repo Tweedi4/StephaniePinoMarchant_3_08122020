@@ -4,9 +4,7 @@
     width: 100%;
     @include flexbox();
     background-color: $background_secondary;
-    .image-restaurant {
-        display: none;
-    }
+    
     .menu {
         @include margins(15px);
 

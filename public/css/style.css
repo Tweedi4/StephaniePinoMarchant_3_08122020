@@ -125,6 +125,25 @@ html {
 }
 
 /*Buttons*/
+.image-restaurant {
+  width: 200px;
+}
+
+.menu h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper__restaurants__texte__gauche {
+  position: relative;
+}
+
+.wrapper__restaurants__texte__gauche .wrapper__restaurants__coeur {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
 /* layout/ dossier où mettre blocs BEM, contient ce qui est réutilisable */
 /* components/ permet de ranger les blocs BEM qui sont plus indépendants, par exemple avec les boutons. */
 /* base/ contient les fichiers qui définissent
@@ -176,6 +195,25 @@ html {
 }
 
 /*Buttons*/
+.image-restaurant {
+  width: 200px;
+}
+
+.menu h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper__restaurants__texte__gauche {
+  position: relative;
+}
+
+.wrapper__restaurants__texte__gauche .wrapper__restaurants__coeur {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
 .btn--nouveau {
   width: 15%;
   height: 35px;
@@ -330,6 +368,25 @@ html {
 }
 
 /*Buttons*/
+.image-restaurant {
+  width: 200px;
+}
+
+.menu h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper__restaurants__texte__gauche {
+  position: relative;
+}
+
+.wrapper__restaurants__texte__gauche .wrapper__restaurants__coeur {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
 .btn--nouveau {
   width: 15%;
   height: 35px;
@@ -618,7 +675,6 @@ footer > h2 i {
   border-radius: 0px 0px 15px 15px;
 }
 .wrapper__restaurants__texte__gauche {
-  width: 65%;
   margin-left: 5%;
 }
 .wrapper__restaurants__texte__gauche h3 {
@@ -658,9 +714,6 @@ footer > h2 i {
   align-items: center;
   flex-wrap: wrap;
   background-color: #e6e6e6;
-}
-#main_wrapper .image-restaurant {
-  display: none;
 }
 #main_wrapper .menu {
   width: 90%;

@@ -78,7 +78,6 @@
                 @include flexbox (row,center,center,wrap);
                 @include element_photo_texte();
                 &__gauche {
-                    width: 65%;
                     margin-left:5%;
                     h3 {
                         @include margins(5px,0%,100%);

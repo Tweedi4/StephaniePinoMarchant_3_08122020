@@ -142,3 +142,24 @@
       margin-top: 15px;
       margin-bottom: 15px;
     }
+
+    .image-restaurant {
+      width: 200px;
+    }
+
+    .menu h2 {
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    .wrapper__restaurants__texte__gauche {
+      position: relative;
+    }
+
+    .wrapper__restaurants__texte__gauche .wrapper__restaurants__coeur {
+      position: absolute;
+      right: 10px;
+      top: 0;
+    }
+    
