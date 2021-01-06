@@ -2,14 +2,15 @@
 
 #main_wrapper {
     width: 100%;
+    @include flexbox();
+    background-color: $background_secondary;
     .image-restaurant {
         display: none;
     }
     .menu {
-    
+        @include margins(15px);
 
         &__entrees {
-           
 
         }
 
@@ -20,10 +21,16 @@
 
 
         &__desserts {
-            
 
 
         }
+        .menu_commander {
+            @include btn--violet;
+            text-align: center;
+            @include margins(25px);
+
+        }
+
 
 
 

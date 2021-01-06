@@ -9,12 +9,8 @@
 
 
 .menu__entrees--btn, .menu__desserts--btn, .menu__plats--btn {
-    @include menus--btn();
+    @include btn--white();
 }
-
-
-
-
 
 
 

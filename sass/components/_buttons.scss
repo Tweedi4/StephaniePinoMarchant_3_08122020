@@ -132,12 +132,13 @@
       border-radius: 0px 0px 15px 15px;
     }
     
-
-    @mixin menus--btn {
+    @mixin btn--white {
       background-color: $background_primary;
       color: $text;
       height: 18px;
       padding-top: 20px;
       padding-bottom: 20px;
       border-radius: 16px;
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
