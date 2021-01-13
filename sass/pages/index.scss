@@ -62,6 +62,7 @@
             @include flexbox;
             @include block_restaurants();
             article {
+                position: relative;
                 @include margins(10px);
                 .btn--nouveau {
                     @include btn--nouveau()

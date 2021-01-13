@@ -7,20 +7,7 @@
     .menu {
         @include margins();
         
-        &__entrees {
-
-        }
-
-        &__plats {
-
-
-        }
-
-
-        &__desserts {
-
-
-        }
+     
         .menu_commander {
             @include btn--violet;
             text-align: center;
