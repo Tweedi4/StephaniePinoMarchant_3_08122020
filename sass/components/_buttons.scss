@@ -107,11 +107,11 @@
     }
 
     @mixin btn--nouveau {
-      width: 15%;
+      width: 23%;
       height: 35px;
       display: block;
       line-height: 35px;
-      text-align:center;
+      text-align: center;
       position: relative;
       left: 75%;
       top: 40px;
@@ -123,7 +123,9 @@
 
     @mixin element_photo() {
       width: 100%;
+      height: 192px;
       border-radius: 15px 15px 0px 0px;
+      box-shadow: $block-shadow;
     }
 
     @mixin element_photo_texte() {
@@ -144,7 +146,10 @@
     }
 
     .image-restaurant {
-      width: 200px;
+      display: flex;
+      width: 100%;
+      height: 400px;
+      
     }
 
     .menu h2 {
@@ -152,6 +157,16 @@
       justify-content: space-between;
 
     }
+
+    article {
+      border-radius: 15px 15px 15px 15px;
+      box-shadow: $block-shadow;
+    }
+
+    .wrapper__restaurants__photo {
+      width: 100%;
+    }
+
 
     .wrapper__restaurants__texte__gauche {
       position: relative;
@@ -163,3 +178,113 @@
       top: 0;
     }
     
+    .menu__prix {
+      position: absolute;
+      right: 40px;
+    }
+
+    .menu .menu__coeur {
+      position: absolute;
+      right: 20px;
+
+    }
+
+
+    .section .menu {
+      border-radius: 15px 15px 0px 0px;
+    }
+
+
+
+    .menu__entrees--btn, .menu__plats--btn, .menu__desserts--btn{
+      position: relative;
+      box-shadow: $block-shadow;
+
+    }
+
+    
+
+
+
+
+
+
+
+
+
+    .loader {
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.90);
+      animation: loader 0.01s;
+      animation-delay: 1.55s;
+      animation-fill-mode: both;
+      z-index: 10000;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    
+      &__item {
+        height: 2rem;
+        width: 2rem;
+        border-radius: 4rem;
+        animation: jump 0.7s;
+        animation-iteration-count: 1;
+    
+        &Container {
+          display: flex;
+          width: 8rem;
+          justify-content: space-between;
+        }
+    
+        &--1 {
+          background-color: $color-primary;
+        }
+      
+        &--2 {
+          background-color: $color-secondary;
+          animation-delay: 0.25s;
+        }
+      
+        &--3 {
+          background-color: $color_accent;
+          animation-delay: 0.5s;
+        }
+      }
+    }
+    
+
+    @keyframes itemAppear {
+      0% {
+        transform: scale(0)
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+    @keyframes loader {
+      100% {
+        opacity: 0;
+        z-index: -10;
+      }
+    } 
+    
+    @keyframes jump {
+      0% {
+        transform: translateY(0);
+      }
+      25% {
+        transform: translateY(0.5rem);
+      }
+      75% {
+        transform: translateY(-0.5rem);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    
+    }

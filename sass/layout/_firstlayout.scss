@@ -25,6 +25,29 @@ header {
         @include margins(10px);
     }
 } 
+section {
+
+    >h1 {
+        @include element_big_logo();
+        font-size: 30px;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    h3 {
+        @include font_bold();
+        font-weight: bolder;
+    }
+    h4 {
+        font-weight: normal;
+        font-size: 16px;
+
+    }
+}
+
+
 footer {
     @include flexbox(column,start,start);
     @include block_footer();

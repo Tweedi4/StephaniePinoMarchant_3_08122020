@@ -3,11 +3,10 @@
 #main_wrapper {
     width: 100%;
     @include flexbox();
-    background-color: $background_secondary;
     
     .menu {
-        @include margins(15px);
-
+        @include margins();
+        
         &__entrees {
 
         }

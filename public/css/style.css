@@ -126,12 +126,24 @@ html {
 
 /*Buttons*/
 .image-restaurant {
-  width: 200px;
+  display: flex;
+  width: 100%;
+  height: 400px;
 }
 
 .menu h2 {
   display: flex;
   justify-content: space-between;
+}
+
+article {
+  height: auto;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper__restaurants__photo {
+  width: 100%;
 }
 
 .wrapper__restaurants__texte__gauche {
@@ -144,6 +156,92 @@ html {
   top: 0;
 }
 
+.menu__prix {
+  position: absolute;
+  right: 40px;
+}
+
+.menu .menu__coeur {
+  position: absolute;
+  right: 20px;
+}
+
+.section .menu {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.menu__entrees--btn, .menu__plats--btn, .menu__desserts--btn {
+  position: relative;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  animation: loader 0.01s;
+  animation-delay: 1.55s;
+  animation-fill-mode: both;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader__item {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 4rem;
+  animation: jump 0.7s;
+  animation-iteration-count: 1;
+}
+.loader__itemContainer {
+  display: flex;
+  width: 8rem;
+  justify-content: space-between;
+}
+.loader__item--1 {
+  background-color: #9356DC;
+}
+.loader__item--2 {
+  background-color: #FF79DA;
+  animation-delay: 0.25s;
+}
+.loader__item--3 {
+  background-color: #99E2D0;
+  animation-delay: 0.5s;
+}
+
+@keyframes itemAppear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes loader {
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0.5rem);
+  }
+  75% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 /* layout/ dossier où mettre blocs BEM, contient ce qui est réutilisable */
 /* components/ permet de ranger les blocs BEM qui sont plus indépendants, par exemple avec les boutons. */
 /* base/ contient les fichiers qui définissent
@@ -196,12 +294,24 @@ html {
 
 /*Buttons*/
 .image-restaurant {
-  width: 200px;
+  display: flex;
+  width: 100%;
+  height: 400px;
 }
 
 .menu h2 {
   display: flex;
   justify-content: space-between;
+}
+
+article {
+  height: auto;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper__restaurants__photo {
+  width: 100%;
 }
 
 .wrapper__restaurants__texte__gauche {
@@ -214,8 +324,94 @@ html {
   top: 0;
 }
 
+.menu__prix {
+  position: absolute;
+  right: 40px;
+}
+
+.menu .menu__coeur {
+  position: absolute;
+  right: 20px;
+}
+
+.section .menu {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.menu__entrees--btn, .menu__plats--btn, .menu__desserts--btn {
+  position: relative;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  animation: loader 0.01s;
+  animation-delay: 1.55s;
+  animation-fill-mode: both;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader__item {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 4rem;
+  animation: jump 0.7s;
+  animation-iteration-count: 1;
+}
+.loader__itemContainer {
+  display: flex;
+  width: 8rem;
+  justify-content: space-between;
+}
+.loader__item--1 {
+  background-color: #9356DC;
+}
+.loader__item--2 {
+  background-color: #FF79DA;
+  animation-delay: 0.25s;
+}
+.loader__item--3 {
+  background-color: #99E2D0;
+  animation-delay: 0.5s;
+}
+
+@keyframes itemAppear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes loader {
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0.5rem);
+  }
+  75% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .btn--nouveau {
-  width: 15%;
+  width: 23%;
   height: 35px;
   display: block;
   line-height: 35px;
@@ -275,6 +471,28 @@ header h1 {
   margin-bottom: 10px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+section > h1 {
+  font-family: shrikhandregular;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section h3 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+section h4 {
+  font-weight: normal;
+  font-size: 16px;
 }
 
 footer {
@@ -369,12 +587,24 @@ html {
 
 /*Buttons*/
 .image-restaurant {
-  width: 200px;
+  display: flex;
+  width: 100%;
+  height: 400px;
 }
 
 .menu h2 {
   display: flex;
   justify-content: space-between;
+}
+
+article {
+  height: auto;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper__restaurants__photo {
+  width: 100%;
 }
 
 .wrapper__restaurants__texte__gauche {
@@ -387,8 +617,94 @@ html {
   top: 0;
 }
 
+.menu__prix {
+  position: absolute;
+  right: 40px;
+}
+
+.menu .menu__coeur {
+  position: absolute;
+  right: 20px;
+}
+
+.section .menu {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.menu__entrees--btn, .menu__plats--btn, .menu__desserts--btn {
+  position: relative;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  animation: loader 0.01s;
+  animation-delay: 1.55s;
+  animation-fill-mode: both;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader__item {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 4rem;
+  animation: jump 0.7s;
+  animation-iteration-count: 1;
+}
+.loader__itemContainer {
+  display: flex;
+  width: 8rem;
+  justify-content: space-between;
+}
+.loader__item--1 {
+  background-color: #9356DC;
+}
+.loader__item--2 {
+  background-color: #FF79DA;
+  animation-delay: 0.25s;
+}
+.loader__item--3 {
+  background-color: #99E2D0;
+  animation-delay: 0.5s;
+}
+
+@keyframes itemAppear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes loader {
+  100% {
+    opacity: 0;
+    z-index: -10;
+  }
+}
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(0.5rem);
+  }
+  75% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .btn--nouveau {
-  width: 15%;
+  width: 23%;
   height: 35px;
   display: block;
   line-height: 35px;
@@ -448,6 +764,28 @@ header h1 {
   margin-bottom: 10px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+section > h1 {
+  font-family: shrikhandregular;
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section h3 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+section h4 {
+  font-weight: normal;
+  font-size: 16px;
 }
 
 footer {
@@ -638,7 +976,7 @@ footer > h2 i {
   margin-right: 5%;
 }
 .wrapper__restaurants article .btn--nouveau {
-  width: 15%;
+  width: 23%;
   height: 35px;
   display: block;
   line-height: 35px;
@@ -661,7 +999,9 @@ footer > h2 i {
 }
 .wrapper__restaurants__photo {
   width: 100%;
+  height: 192px;
   border-radius: 15px 15px 0px 0px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 .wrapper__restaurants__texte {
   width: 100%;
@@ -713,12 +1053,11 @@ footer > h2 i {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #e6e6e6;
 }
 #main_wrapper .menu {
   width: 90%;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: 5%;
   margin-right: 5%;
 }
