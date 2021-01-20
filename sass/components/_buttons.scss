@@ -155,8 +155,17 @@
     .menu h2 {
       display: flex;
       justify-content: space-between;
-
+      font-weight: normal;
+      font-size: 18px;
     }
+
+    .menu h2:hover {
+        text-decoration: underline #99E2D0;
+        text-decoration-thickness: 3px;
+    }
+
+
+
 
     .restaurant {
       border-radius: 15px 15px 15px 15px;
@@ -181,14 +190,33 @@
     .menu__prix {
       position: absolute;
       right: 40px;
+      font-weight: bold;
     }
 
     .menu .menu__coeur {
       position: absolute;
       right: 20px;
+      cursor: pointer;
+      display: flex;
+      width: 18px;
+
+
+      .menu__coeur::before {
+
+        background: white;
+        transition: 0.25s;
+      }
+      .menu__coeur::after {
+        transition-duration: .5s;
+        content: "";
+        background: linear-gradient(0deg,#9356dc,#ff79da);
+
+      }
 
     }
+  
 
+ 
 
     .section .menu {
       border-radius: 15px 15px 0px 0px;
@@ -278,3 +306,6 @@
       }
     
     }
+
+
+
