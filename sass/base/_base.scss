@@ -125,20 +125,46 @@ ol {
 
 /* Menu - responsive */
 
+.image-restaurant {
+    object-fit: cover;
+}
+
+
 
 .menu {
-    @include xlarge-size {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: 100%;
-        align-content: center;
+    width: 100%;
+    background-color: #f6f6f6;
 
+    @include xlarge-size {
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        top: -50px;
+        border-radius: 20px;
+        box-shadow: $block-shadow;
+    }
+
+    @include medium-size {
+        border-radius: 20px;
+        top: -50px;
 
     }
 }
 
+.liste {
+    align-content: center;
+    justify-content: center;
+    @include medium-size{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
+.fa-heart {
+    @include xlarge-size {
+        font-size: 2em;
+    }
+}
 
 
 .menu__entrees, .menu__plats, .menu__desserts {
@@ -150,8 +176,11 @@ ol {
 }
 
 #order {
+    cursor: pointer;
+
+
     @include xlarge-size {
-        max-width: 15%;
+        max-width: 10%;
     }
 }
 
@@ -168,6 +197,7 @@ ul {
         background-color: #f6f6f6;
         z-index: 1;
         position: relative;
+
 
     }
 }
