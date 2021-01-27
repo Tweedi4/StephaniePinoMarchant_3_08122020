@@ -8,6 +8,7 @@
     @include block_wrapper();
     &__intro {
         @include flexbox;
+        background-color: #fafafa;
         text-align: center;
         padding-bottom: 20px;
         &__01 {
@@ -102,13 +103,5 @@
             }
 
         }
-
-
-
-
-
-
-
-
 
 }

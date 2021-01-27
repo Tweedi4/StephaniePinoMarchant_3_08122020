@@ -8,10 +8,12 @@ et les normes que vous voulez appliquer sur tout votre site */
     font-family: $text;
     @include xlarge-size{
         font-size: 1.05rem;
+        align-content: center;
     }
     @include xxlarge-size{
         font-size: 1.2rem;
     }
+    
 }
 
 a {
@@ -26,11 +28,24 @@ nav, section {
 
 
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
+.wrapper__restaurants__texte__gauche {
+    @include xlarge-size {
+        margin-left: 0%;
+        width: fit-content;
+        display: flex;
+
+    }
+}
+
+
+
 ol, ul {
 	list-style: none;
 }
+
 
 
 html{
@@ -43,5 +58,119 @@ html{
     color:$text-color_1;
     background-color:$background_primary;
 }
+
+/* Index - responsive*/
+
+#resto {
+    @include xlarge-size {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        row-gap: 20px;
+        margin-bottom:30px;
+    }
+}
+
+.wrapper__steps {
+    @include xlarge-size {
+        max-width: 70%;
+    }
+}
+
+.wrapper__intro__04 {
+    @include xlarge-size {
+        max-width: 15%;
+    }
+}
+
+
+.wrapper__restaurants {
+    @include xlarge-size {
+        max-width: 70%;
+        padding: 2rem 1rem;
+    }
+}
+
+.section .wrapper__restaurants {
+    @include xlarge-size {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        max-width: 100%;
+    }
+}
+
+.wrapper__restaurants__photo {
+    @include xlarge-size {
+        max-width: auto;
+    }
+}
+
+
+ol {
+    @include xlarge-size {
+        flex-direction: row;
+        display: flex;
+    }
+}
+
+.restaurant {
+    @include xlarge-size {
+        max-width: 45%;
+
+    }
+}
+
+
+/* Menu - responsive */
+
+
+.menu {
+    @include xlarge-size {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        align-content: center;
+
+
+    }
+}
+
+
+
+
+.menu__entrees, .menu__plats, .menu__desserts {
+    @include xlarge-size {
+        width: 25%;
+        padding:20px;
+
+    }
+}
+
+#order {
+    @include xlarge-size {
+        max-width: 15%;
+    }
+}
+
+
+ul {
+    @include xlarge-size {
+        width: auto;
+    }
+}
+
+.titre {
+    @include xlarge-size {
+        border-radius: 2rem 2rem 0 0;
+        background-color: #f6f6f6;
+        z-index: 1;
+        position: relative;
+
+    }
+}
+
 
 
