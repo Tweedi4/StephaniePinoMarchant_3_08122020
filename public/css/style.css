@@ -70,7 +70,7 @@ html {
   background-color: white;
 }
 
-/* Index - responsive*/
+/* Index */
 @media screen and (min-width: 1440px) {
   #resto {
     display: flex;
@@ -129,7 +129,7 @@ html {
   }
 }
 
-/* Menu - responsive */
+/* Menu */
 .image-restaurant {
   object-fit: cover;
 }
@@ -185,7 +185,16 @@ html {
 @media screen and (min-width: 1440px) {
   #order {
     max-width: 10%;
+    justify-content: center;
+    align-content: center;
   }
+}
+
+.wrapButton {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding: 1rem 0;
 }
 
 @media screen and (min-width: 1440px) {
@@ -275,7 +284,7 @@ html {
   background-color: white;
 }
 
-/* Index - responsive*/
+/* Index */
 @media screen and (min-width: 1440px) {
   #resto {
     display: flex;
@@ -334,7 +343,7 @@ html {
   }
 }
 
-/* Menu - responsive */
+/* Menu */
 .image-restaurant {
   object-fit: cover;
 }
@@ -390,7 +399,16 @@ html {
 @media screen and (min-width: 1440px) {
   #order {
     max-width: 10%;
+    justify-content: center;
+    align-content: center;
   }
+}
+
+.wrapButton {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding: 1rem 0;
 }
 
 @media screen and (min-width: 1440px) {
@@ -452,9 +470,13 @@ footer > h2 {
 }
 
 .menu__prix {
-  position: absolute;
-  right: 40px;
   font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 0.5rem;
+  position: relative;
+  bottom: 15px;
 }
 
 .menu .menu__coeur {
@@ -473,6 +495,104 @@ footer > h2 {
 .menu__entrees--btn, .menu__plats--btn, .menu__desserts--btn {
   position: relative;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin: 1rem 0;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  animation: itemAppear 0.6s;
+  animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
+  animation-fill-mode: both;
+  transform: scale(0);
+  max-width: 100%;
+}
+
+.delay-0 {
+  animation-delay: 0s;
+}
+
+.delay-1 {
+  animation-delay: 0.1s;
+}
+
+.delay-2 {
+  animation-delay: 0.2s;
+}
+
+.delay-3 {
+  animation-delay: 0.3s;
+}
+
+.delay-4 {
+  animation-delay: 0.4s;
+}
+
+.delay-5 {
+  animation-delay: 0.5s;
+}
+
+.delay-6 {
+  animation-delay: 0.6s;
+}
+
+.delay-7 {
+  animation-delay: 0.7s;
+}
+
+.delay-8 {
+  animation-delay: 0.8s;
+}
+
+.title, .description {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+  top: 6px;
+}
+
+.fas {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  justify-content: center;
+}
+
+.confirmation {
+  background-color: #99e2d0;
+  margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+
+.confirmation:hover {
+  margin-right: -1rem;
+}
+
+.wrapIcon {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+
+.wrapIcon:hover {
+  transform: rotate(0);
 }
 
 .loader {
@@ -601,7 +721,7 @@ html {
   background-color: white;
 }
 
-/* Index - responsive*/
+/* Index */
 @media screen and (min-width: 1440px) {
   #resto {
     display: flex;
@@ -660,7 +780,7 @@ html {
   }
 }
 
-/* Menu - responsive */
+/* Menu */
 .image-restaurant {
   object-fit: cover;
 }
@@ -716,7 +836,16 @@ html {
 @media screen and (min-width: 1440px) {
   #order {
     max-width: 10%;
+    justify-content: center;
+    align-content: center;
   }
+}
+
+.wrapButton {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding: 1rem 0;
 }
 
 @media screen and (min-width: 1440px) {
@@ -778,9 +907,13 @@ footer > h2 {
 }
 
 .menu__prix {
-  position: absolute;
-  right: 40px;
   font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 0.5rem;
+  position: relative;
+  bottom: 15px;
 }
 
 .menu .menu__coeur {
@@ -799,6 +932,104 @@ footer > h2 {
 .menu__entrees--btn, .menu__plats--btn, .menu__desserts--btn {
   position: relative;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin: 1rem 0;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  animation: itemAppear 0.6s;
+  animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
+  animation-fill-mode: both;
+  transform: scale(0);
+  max-width: 100%;
+}
+
+.delay-0 {
+  animation-delay: 0s;
+}
+
+.delay-1 {
+  animation-delay: 0.1s;
+}
+
+.delay-2 {
+  animation-delay: 0.2s;
+}
+
+.delay-3 {
+  animation-delay: 0.3s;
+}
+
+.delay-4 {
+  animation-delay: 0.4s;
+}
+
+.delay-5 {
+  animation-delay: 0.5s;
+}
+
+.delay-6 {
+  animation-delay: 0.6s;
+}
+
+.delay-7 {
+  animation-delay: 0.7s;
+}
+
+.delay-8 {
+  animation-delay: 0.8s;
+}
+
+.title, .description {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+  top: 6px;
+}
+
+.fas {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  justify-content: center;
+}
+
+.confirmation {
+  background-color: #99e2d0;
+  margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+
+.confirmation:hover {
+  margin-right: -1rem;
+}
+
+.wrapIcon {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+
+.wrapIcon:hover {
+  transform: rotate(0);
 }
 
 .loader {
@@ -1050,7 +1281,7 @@ html {
   background-color: white;
 }
 
-/* Index - responsive*/
+/* Index */
 @media screen and (min-width: 1440px) {
   #resto {
     display: flex;
@@ -1109,7 +1340,7 @@ html {
   }
 }
 
-/* Menu - responsive */
+/* Menu */
 .image-restaurant {
   object-fit: cover;
 }
@@ -1165,7 +1396,16 @@ html {
 @media screen and (min-width: 1440px) {
   #order {
     max-width: 10%;
+    justify-content: center;
+    align-content: center;
   }
+}
+
+.wrapButton {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding: 1rem 0;
 }
 
 @media screen and (min-width: 1440px) {
@@ -1227,9 +1467,13 @@ footer > h2 {
 }
 
 .menu__prix {
-  position: absolute;
-  right: 40px;
   font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 0.5rem;
+  position: relative;
+  bottom: 15px;
 }
 
 .menu .menu__coeur {
@@ -1248,6 +1492,104 @@ footer > h2 {
 .menu__entrees--btn, .menu__plats--btn, .menu__desserts--btn {
   position: relative;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin: 1rem 0;
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  animation: itemAppear 0.6s;
+  animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
+  animation-fill-mode: both;
+  transform: scale(0);
+  max-width: 100%;
+}
+
+.delay-0 {
+  animation-delay: 0s;
+}
+
+.delay-1 {
+  animation-delay: 0.1s;
+}
+
+.delay-2 {
+  animation-delay: 0.2s;
+}
+
+.delay-3 {
+  animation-delay: 0.3s;
+}
+
+.delay-4 {
+  animation-delay: 0.4s;
+}
+
+.delay-5 {
+  animation-delay: 0.5s;
+}
+
+.delay-6 {
+  animation-delay: 0.6s;
+}
+
+.delay-7 {
+  animation-delay: 0.7s;
+}
+
+.delay-8 {
+  animation-delay: 0.8s;
+}
+
+.title, .description {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+  top: 6px;
+}
+
+.fas {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  justify-content: center;
+}
+
+.confirmation {
+  background-color: #99e2d0;
+  margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transition-duration: 0.5s;
+}
+
+.confirmation:hover {
+  margin-right: -1rem;
+}
+
+.wrapIcon {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+
+.wrapIcon:hover {
+  transform: rotate(0);
 }
 
 .loader {

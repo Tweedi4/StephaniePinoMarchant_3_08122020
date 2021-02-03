@@ -59,7 +59,7 @@ html{
     background-color:$background_primary;
 }
 
-/* Index - responsive*/
+/* Index */
 
 #resto {
     @include xlarge-size {
@@ -123,7 +123,7 @@ ol {
 }
 
 
-/* Menu - responsive */
+/* Menu */
 
 .image-restaurant {
     object-fit: cover;
@@ -177,11 +177,20 @@ ol {
 
 #order {
     cursor: pointer;
-
-
+        
     @include xlarge-size {
         max-width: 10%;
+        justify-content: center;
+        align-content: center;
+
     }
+}
+
+.wrapButton {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    padding: 1rem 0;
 }
 
 
