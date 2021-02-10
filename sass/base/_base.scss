@@ -46,6 +46,10 @@ ol, ul {
 	list-style: none;
 }
 
+.li .menu {
+    overflow: hidden;
+}
+
 
 
 html{
@@ -177,6 +181,7 @@ ol {
 
 #order {
     cursor: pointer;
+
         
     @include xlarge-size {
         max-width: 10%;
@@ -184,6 +189,10 @@ ol {
         align-content: center;
 
     }
+}
+
+#order:hover {
+    box-shadow: $block-shadow;
 }
 
 .wrapButton {

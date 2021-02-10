@@ -146,8 +146,7 @@
     .image-restaurant {
       display: flex;
       width: 100%;
-      height: 400px;
-      
+      height: 400px;     
     }
 
     .menu h2 {
@@ -179,6 +178,7 @@
 
     .wrapper__restaurants__photo {
       width: 100%;
+      object-fit: cover;
     }
 
 
@@ -207,9 +207,23 @@
       right: 20px;
     }
 
-    .fa-heart {
+    .fa-heart{
       cursor: pointer;
-      
+    }
+
+    .fa-heart:hover {
+      color: darken($color: #e06fdb, $amount: 2%);
+    }
+
+    #heartHover {
+      position: absolute;
+      right: 0;
+      opacity: 0;
+    }
+
+    #heartHover:hover{
+      opacity: 1;
+      color: darken($color: #e06fdb, $amount: 2%);
     }
 
 
@@ -234,6 +248,7 @@
       animation-fill-mode: both;
       transform: scale(0);
       max-width: 100%;
+      display: flex;
       
 
     }
@@ -275,6 +290,13 @@
       animation-delay: .8s;
     }
 
+    .checkAnim {
+      width: 100%;
+      position: relative;
+    }
+
+
+
     .title, .description {
       margin: 0;
       white-space: nowrap;
@@ -297,17 +319,18 @@
 
     .confirmation {
       background-color: #99e2d0;
-      margin: -1rem -5rem -1rem 1rem;
       width: 4rem;
       display: flex;
       align-items: flex-end;
       justify-content: center;
       transition-duration: .5s;
+      position: absolute;
+      right: -50px;
+
     }
 
     .confirmation:hover {
-      margin-right: -1rem;
-
+      margin-right: 3rem;
     }
 
     .wrapIcon {
@@ -328,6 +351,13 @@
       transform: rotate(0);
     }
 
+    .wrapper__intro__04 {
+      cursor: pointer;
+    }
+
+    .wrapper__intro__04:hover {
+      box-shadow: $block-shadow;
+    }
 
 
 

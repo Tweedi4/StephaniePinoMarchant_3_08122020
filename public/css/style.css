@@ -59,6 +59,10 @@ ol, ul {
   list-style: none;
 }
 
+.li .menu {
+  overflow: hidden;
+}
+
 html {
   width: 100%;
   font-family: "Roboto", sans-serif;
@@ -188,6 +192,10 @@ html {
     justify-content: center;
     align-content: center;
   }
+}
+
+#order:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .wrapButton {
@@ -273,6 +281,10 @@ ol, ul {
   list-style: none;
 }
 
+.li .menu {
+  overflow: hidden;
+}
+
 html {
   width: 100%;
   font-family: "Roboto", sans-serif;
@@ -404,6 +416,10 @@ html {
   }
 }
 
+#order:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
 .wrapButton {
   display: flex;
   text-decoration: none;
@@ -457,6 +473,7 @@ footer > h2 {
 
 .wrapper__restaurants__photo {
   width: 100%;
+  object-fit: cover;
 }
 
 .wrapper__restaurants__texte__gauche {
@@ -488,6 +505,21 @@ footer > h2 {
   cursor: pointer;
 }
 
+.fa-heart:hover {
+  color: #de67d9;
+}
+
+#heartHover {
+  position: absolute;
+  right: 0;
+  opacity: 0;
+}
+
+#heartHover:hover {
+  opacity: 1;
+  color: #de67d9;
+}
+
 .section .menu {
   border-radius: 15px 15px 0px 0px;
 }
@@ -507,6 +539,7 @@ footer > h2 {
   animation-fill-mode: both;
   transform: scale(0);
   max-width: 100%;
+  display: flex;
 }
 
 .delay-0 {
@@ -545,6 +578,11 @@ footer > h2 {
   animation-delay: 0.8s;
 }
 
+.checkAnim {
+  width: 100%;
+  position: relative;
+}
+
 .title, .description {
   margin: 0;
   white-space: nowrap;
@@ -565,16 +603,17 @@ footer > h2 {
 
 .confirmation {
   background-color: #99e2d0;
-  margin: -1rem -5rem -1rem 1rem;
   width: 4rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   transition-duration: 0.5s;
+  position: absolute;
+  right: -50px;
 }
 
 .confirmation:hover {
-  margin-right: -1rem;
+  margin-right: 3rem;
 }
 
 .wrapIcon {
@@ -593,6 +632,14 @@ footer > h2 {
 
 .wrapIcon:hover {
   transform: rotate(0);
+}
+
+.wrapper__intro__04 {
+  cursor: pointer;
+}
+
+.wrapper__intro__04:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .loader {
@@ -710,6 +757,10 @@ ol, ul {
   list-style: none;
 }
 
+.li .menu {
+  overflow: hidden;
+}
+
 html {
   width: 100%;
   font-family: "Roboto", sans-serif;
@@ -841,6 +892,10 @@ html {
   }
 }
 
+#order:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
 .wrapButton {
   display: flex;
   text-decoration: none;
@@ -894,6 +949,7 @@ footer > h2 {
 
 .wrapper__restaurants__photo {
   width: 100%;
+  object-fit: cover;
 }
 
 .wrapper__restaurants__texte__gauche {
@@ -925,6 +981,21 @@ footer > h2 {
   cursor: pointer;
 }
 
+.fa-heart:hover {
+  color: #de67d9;
+}
+
+#heartHover {
+  position: absolute;
+  right: 0;
+  opacity: 0;
+}
+
+#heartHover:hover {
+  opacity: 1;
+  color: #de67d9;
+}
+
 .section .menu {
   border-radius: 15px 15px 0px 0px;
 }
@@ -944,6 +1015,7 @@ footer > h2 {
   animation-fill-mode: both;
   transform: scale(0);
   max-width: 100%;
+  display: flex;
 }
 
 .delay-0 {
@@ -982,6 +1054,11 @@ footer > h2 {
   animation-delay: 0.8s;
 }
 
+.checkAnim {
+  width: 100%;
+  position: relative;
+}
+
 .title, .description {
   margin: 0;
   white-space: nowrap;
@@ -1002,16 +1079,17 @@ footer > h2 {
 
 .confirmation {
   background-color: #99e2d0;
-  margin: -1rem -5rem -1rem 1rem;
   width: 4rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   transition-duration: 0.5s;
+  position: absolute;
+  right: -50px;
 }
 
 .confirmation:hover {
-  margin-right: -1rem;
+  margin-right: 3rem;
 }
 
 .wrapIcon {
@@ -1030,6 +1108,14 @@ footer > h2 {
 
 .wrapIcon:hover {
   transform: rotate(0);
+}
+
+.wrapper__intro__04 {
+  cursor: pointer;
+}
+
+.wrapper__intro__04:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .loader {
@@ -1270,6 +1356,10 @@ ol, ul {
   list-style: none;
 }
 
+.li .menu {
+  overflow: hidden;
+}
+
 html {
   width: 100%;
   font-family: "Roboto", sans-serif;
@@ -1401,6 +1491,10 @@ html {
   }
 }
 
+#order:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+
 .wrapButton {
   display: flex;
   text-decoration: none;
@@ -1454,6 +1548,7 @@ footer > h2 {
 
 .wrapper__restaurants__photo {
   width: 100%;
+  object-fit: cover;
 }
 
 .wrapper__restaurants__texte__gauche {
@@ -1485,6 +1580,21 @@ footer > h2 {
   cursor: pointer;
 }
 
+.fa-heart:hover {
+  color: #de67d9;
+}
+
+#heartHover {
+  position: absolute;
+  right: 0;
+  opacity: 0;
+}
+
+#heartHover:hover {
+  opacity: 1;
+  color: #de67d9;
+}
+
 .section .menu {
   border-radius: 15px 15px 0px 0px;
 }
@@ -1504,6 +1614,7 @@ footer > h2 {
   animation-fill-mode: both;
   transform: scale(0);
   max-width: 100%;
+  display: flex;
 }
 
 .delay-0 {
@@ -1542,6 +1653,11 @@ footer > h2 {
   animation-delay: 0.8s;
 }
 
+.checkAnim {
+  width: 100%;
+  position: relative;
+}
+
 .title, .description {
   margin: 0;
   white-space: nowrap;
@@ -1562,16 +1678,17 @@ footer > h2 {
 
 .confirmation {
   background-color: #99e2d0;
-  margin: -1rem -5rem -1rem 1rem;
   width: 4rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   transition-duration: 0.5s;
+  position: absolute;
+  right: -50px;
 }
 
 .confirmation:hover {
-  margin-right: -1rem;
+  margin-right: 3rem;
 }
 
 .wrapIcon {
@@ -1590,6 +1707,14 @@ footer > h2 {
 
 .wrapIcon:hover {
   transform: rotate(0);
+}
+
+.wrapper__intro__04 {
+  cursor: pointer;
+}
+
+.wrapper__intro__04:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .loader {
@@ -1925,6 +2050,7 @@ footer > h2 i {
 }
 .wrapper__restaurants article {
   position: relative;
+  max-width: 400px;
   width: 90%;
   margin-top: 10px;
   margin-bottom: 10px;

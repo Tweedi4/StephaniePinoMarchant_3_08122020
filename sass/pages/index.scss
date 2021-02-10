@@ -64,6 +64,7 @@
             @include block_restaurants();
             article {
                 position: relative;
+                max-width: 400px;
                 @include margins(10px);
                 .btn--nouveau {
                     @include btn--nouveau()
