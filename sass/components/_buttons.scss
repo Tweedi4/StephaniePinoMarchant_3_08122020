@@ -143,6 +143,20 @@
       padding: 15px;
     }
 
+    .header__arrow {
+      position: absolute;
+      left: 2rem;
+      height: 2rem;
+      width: 2rem;
+      top: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(-50%);
+      font-size: 1.2rem;
+      color: #000;
+    }
+
     .image-restaurant {
       display: flex;
       width: 100%;
@@ -156,10 +170,27 @@
       font-size: 18px;
     }
 
-    .menu h2:hover {
-        text-decoration: underline #99E2D0;
-        text-decoration-thickness: 3px;
+
+    .submenu {
+      text-transform: uppercase;
+      position: relative;
+      padding-bottom: .5rem;
+      font-weight: 400;
     }
+
+
+    .submenu::after {
+      content: "";
+      width: 3rem;
+      height: .25rem;
+      background-color: #99e2d0;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+
+
+
 
     footer {
       >h2 {
@@ -205,25 +236,27 @@
     .menu .menu__coeur {
       position: absolute;
       right: 20px;
+      background: white;
     }
 
     .fa-heart{
       cursor: pointer;
     }
 
-    .fa-heart:hover {
-      color: darken($color: #e06fdb, $amount: 2%);
-    }
+
 
     #heartHover {
       position: absolute;
       right: 0;
       opacity: 0;
+      transition: .5s;
+      content: "";
+      background:linear-gradient(0deg,#9356dc,#ff79da);
     }
+
 
     #heartHover:hover{
       opacity: 1;
-      color: darken($color: #e06fdb, $amount: 2%);
     }
 
 
