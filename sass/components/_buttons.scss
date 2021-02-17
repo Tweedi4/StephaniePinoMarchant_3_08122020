@@ -233,14 +233,14 @@
       bottom: 15px;
     }
 
-    .menu .menu__coeur {
+    .menu__coeur {
       position: absolute;
       right: 20px;
-      background: white;
     }
 
     .fa-heart{
       cursor: pointer;
+
     }
 
 
@@ -249,16 +249,19 @@
       position: absolute;
       right: 0;
       opacity: 0;
-      transition: .5s;
-      content: "";
-      background:linear-gradient(0deg,#9356dc,#ff79da);
+
     }
 
 
     #heartHover:hover{
       opacity: 1;
+      background: -moz-linear-gradient(90deg, rgba(42,63,76,1) 38%, rgba(87,132,159,1) 100%);
+      background: -webkit-linear-gradient(90deg, rgba(42,63,76,1) 38%, rgba(87,132,159,1) 100%);
+      background: linear-gradient(90deg, rgba(42,63,76,1) 38%, rgba(87,132,159,1) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-mask-image: linear-gradient(90deg, rgba(42,63,76,1) 38%, rgba(87,132,159,1) 100%);
     }
-
 
     .section .menu {
       border-radius: 15px 15px 0px 0px;
@@ -282,9 +285,9 @@
       transform: scale(0);
       max-width: 100%;
       display: flex;
-      
-
+    
     }
+
 
     
 
@@ -359,12 +362,20 @@
       transition-duration: .5s;
       position: absolute;
       right: -50px;
-
+      padding-top: 30px;
+      padding-bottom: 30px;
+      align-content: center;
+      top: 0;
     }
 
-    .confirmation:hover {
+    .liste li:hover > .confirmation{
       margin-right: 3rem;
     }
+
+    .liste li:hover > .confirmation .wrapIcon {
+      transform: rotate(360deg);
+    }
+
 
     .wrapIcon {
       height: 1.6rem;
@@ -376,13 +387,11 @@
       align-items: center;
       justify-content: center;
       border-radius: 100px;
-      transform: rotate(180deg);
+      transition: transform 500ms;
       transition-duration: .5s;
+      color: $color-accent;
     }
 
-    .wrapIcon:hover {
-      transform: rotate(0);
-    }
 
     .wrapper__intro__04 {
       cursor: pointer;
