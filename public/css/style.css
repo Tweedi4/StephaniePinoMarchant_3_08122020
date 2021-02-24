@@ -170,10 +170,6 @@ html {
   }
 }
 
-.fa-heart {
-  font-size: 2rem;
-}
-
 @media screen and (min-width: 1440px) {
   .menu__entrees, .menu__plats, .menu__desserts {
     width: 25%;
@@ -391,10 +387,6 @@ html {
   }
 }
 
-.fa-heart {
-  font-size: 2rem;
-}
-
 @media screen and (min-width: 1440px) {
   .menu__entrees, .menu__plats, .menu__desserts {
     width: 25%;
@@ -523,10 +515,17 @@ footer > h2 {
 .menu__coeur {
   position: absolute;
   right: 20px;
+  background-color: #9356DC, #FF79DA;
+}
+
+.menu__coeur:hover {
+  background: #f6f6f6fd;
 }
 
 .fa-heart {
   cursor: pointer;
+  font-size: 2rem;
+  background: #f6f6f6;
 }
 
 #heartHover {
@@ -537,12 +536,7 @@ footer > h2 {
 
 #heartHover:hover {
   opacity: 1;
-  background: -moz-linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
-  background: -webkit-linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
-  background: linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-mask-image: linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
+  color: #db6ddb;
 }
 
 .section .menu {
@@ -634,7 +628,7 @@ footer > h2 {
   justify-content: center;
   transition-duration: 0.5s;
   position: absolute;
-  right: -50px;
+  right: -65px;
   padding-top: 30px;
   padding-bottom: 30px;
   align-content: center;
@@ -898,10 +892,6 @@ html {
   }
 }
 
-.fa-heart {
-  font-size: 2rem;
-}
-
 @media screen and (min-width: 1440px) {
   .menu__entrees, .menu__plats, .menu__desserts {
     width: 25%;
@@ -1030,10 +1020,17 @@ footer > h2 {
 .menu__coeur {
   position: absolute;
   right: 20px;
+  background-color: #9356DC, #FF79DA;
+}
+
+.menu__coeur:hover {
+  background: #f6f6f6fd;
 }
 
 .fa-heart {
   cursor: pointer;
+  font-size: 2rem;
+  background: #f6f6f6;
 }
 
 #heartHover {
@@ -1044,12 +1041,7 @@ footer > h2 {
 
 #heartHover:hover {
   opacity: 1;
-  background: -moz-linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
-  background: -webkit-linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
-  background: linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-mask-image: linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
+  color: #db6ddb;
 }
 
 .section .menu {
@@ -1141,7 +1133,7 @@ footer > h2 {
   justify-content: center;
   transition-duration: 0.5s;
   position: absolute;
-  right: -50px;
+  right: -65px;
   padding-top: 30px;
   padding-bottom: 30px;
   align-content: center;
@@ -1528,10 +1520,6 @@ html {
   }
 }
 
-.fa-heart {
-  font-size: 2rem;
-}
-
 @media screen and (min-width: 1440px) {
   .menu__entrees, .menu__plats, .menu__desserts {
     width: 25%;
@@ -1660,10 +1648,17 @@ footer > h2 {
 .menu__coeur {
   position: absolute;
   right: 20px;
+  background-color: #9356DC, #FF79DA;
+}
+
+.menu__coeur:hover {
+  background: #f6f6f6fd;
 }
 
 .fa-heart {
   cursor: pointer;
+  font-size: 2rem;
+  background: #f6f6f6;
 }
 
 #heartHover {
@@ -1674,12 +1669,7 @@ footer > h2 {
 
 #heartHover:hover {
   opacity: 1;
-  background: -moz-linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
-  background: -webkit-linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
-  background: linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-mask-image: linear-gradient(90deg, #2a3f4c 38%, #57849f 100%);
+  color: #db6ddb;
 }
 
 .section .menu {
@@ -1771,7 +1761,7 @@ footer > h2 {
   justify-content: center;
   transition-duration: 0.5s;
   position: absolute;
-  right: -50px;
+  right: -65px;
   padding-top: 30px;
   padding-bottom: 30px;
   align-content: center;
