@@ -48,7 +48,7 @@ body {
 }
 
 h1 {
-  font-family: "Shrikhand";
+  font-family: "shrikhandregular";
 }
 
 @media screen and (min-width: 1440px) {
@@ -280,7 +280,7 @@ body {
 }
 
 h1 {
-  font-family: "Shrikhand";
+  font-family: "shrikhandregular";
 }
 
 @media screen and (min-width: 1440px) {
@@ -463,6 +463,10 @@ html {
 }
 
 /*Buttons*/
+.brandLogo {
+  font-family: "Shrikhand", "cursive";
+}
+
 .header__arrow {
   position: absolute;
   left: 2rem;
@@ -805,7 +809,7 @@ body {
 }
 
 h1 {
-  font-family: "Shrikhand";
+  font-family: "shrikhandregular";
 }
 
 @media screen and (min-width: 1440px) {
@@ -988,6 +992,10 @@ html {
 }
 
 /*Buttons*/
+.brandLogo {
+  font-family: "Shrikhand", "cursive";
+}
+
 .header__arrow {
   position: absolute;
   left: 2rem;
@@ -1453,7 +1461,7 @@ body {
 }
 
 h1 {
-  font-family: "Shrikhand";
+  font-family: "shrikhandregular";
 }
 
 @media screen and (min-width: 1440px) {
@@ -1636,6 +1644,10 @@ html {
 }
 
 /*Buttons*/
+.brandLogo {
+  font-family: "Shrikhand", "cursive";
+}
+
 .header__arrow {
   position: absolute;
   left: 2rem;
