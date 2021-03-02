@@ -136,11 +136,11 @@ ol {
 
 
 .menu {
-    width: 100%;
     background-color: #f6f6f6;
 
 
     @include xlarge-size {
+        width: 80%;
         align-content: center;
         justify-content: center;
         position: relative;
@@ -204,7 +204,6 @@ ol {
     width: 90%;
     margin: auto;
 }
-
 
 ul {
     @include xlarge-size {

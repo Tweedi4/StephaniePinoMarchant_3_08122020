@@ -7,9 +7,7 @@
     
     .menu {
         @include margins();
-        @include large-size {
-            width: 80%;
-        }
+
         .menu_commander {
             @include btn--violet;
             text-align: center;

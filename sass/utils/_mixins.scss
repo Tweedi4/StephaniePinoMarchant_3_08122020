@@ -16,7 +16,7 @@
     flex-wrap: $wrap;  
 }
 
-@mixin margins ($height: 0px ,$width: 0%, $main-width:100%) {
+@mixin margins ($height: 0px ,$width: 5%, $main-width:90%) {
     width: $main-width;
     margin-top: $height;
     margin-bottom: $height;
