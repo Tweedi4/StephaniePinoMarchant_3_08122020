@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'shrikhandregular';
-    src: local('/Fonts/shrikhand-regular.eot');
+    src: url('/Fonts/shrikhand-regular.eot');
     src: url('/Fonts/shrikhand-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         local('/Fonts/shrikhand-regular.woff') format('woff'),
-         local('/Fonts/shrikhand-regular.woff2') format('woff'),
-         local('/Fonts/Shrikhand-regular.ttf') format('truetype'),
-         local('/Fonts/shrikhand-regular.svg') format('svg');
+         url('/Fonts/shrikhand-regular.woff') format('woff'),
+         url('/Fonts/shrikhand-regular.woff2') format('woff'),
+         url('/Fonts/Shrikhand-regular.ttf') format('truetype'),
+         url('/Fonts/shrikhand-regular.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
