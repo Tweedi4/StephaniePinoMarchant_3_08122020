@@ -31,6 +31,10 @@ body {
     line-height: 1;
 }
 
+h1 {
+    font-family: 'Shrikhand';
+}
+
 .wrapper__restaurants__texte__gauche {
     @include xlarge-size {
         margin-left: 0%;
