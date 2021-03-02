@@ -22,7 +22,6 @@ header {
     @include block_header();
     h1 {
         @include element_big_logo();
-        font-family: 'Shrikhand';
         @include margins(10px);
     }
 } 
@@ -31,7 +30,6 @@ section {
 
     >h1 {
         @include element_big_logo();
-        font-family: 'Shrikhand';
         font-size: 30px;
         text-align: left;
         margin-top: 20px;
@@ -56,7 +54,6 @@ footer {
     @include block_footer();
     >h1 {
         @include element_small_logo();
-        font-family: 'Shrikhand';
         @include margins(15px);
 
     }
