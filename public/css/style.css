@@ -48,13 +48,12 @@ body {
 }
 
 h1 {
-  font-family: "shrikhandregular";
+  font-family: "Shrikhand";
 }
 
 @media screen and (min-width: 1440px) {
   .wrapper__restaurants__texte__gauche {
     margin-left: 0%;
-    width: fit-content;
     display: flex;
   }
 }
@@ -144,6 +143,7 @@ html {
 
 .menu {
   background-color: #f6f6f6;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 @media screen and (min-width: 1440px) {
   .menu {
@@ -153,7 +153,6 @@ html {
     position: relative;
     top: -50px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
   }
 }
 @media screen and (min-width: 768px) {
@@ -175,6 +174,7 @@ html {
   align-content: center;
   justify-content: center;
   padding: 0 1rem;
+  margin: 20px;
 }
 @media screen and (min-width: 768px) {
   .liste {
@@ -237,13 +237,6 @@ html {
 /* footer color */
 /* text color */
 /*Fonts*/
-@font-face {
-  font-family: "shrikhandregular";
-  src: url("/Fonts/shrikhand-regular.eot");
-  src: url("/Fonts/shrikhand-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/Fonts/shrikhand-regular.woff") format("woff"), url("/Fonts/shrikhand-regular.woff2") format("woff"), url("/Fonts/Shrikhand-regular.ttf") format("truetype"), url("/Fonts/shrikhand-regular.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 /* components/ permet de ranger les blocs BEM qui sont plus indépendants, par exemple avec les boutons. */
 /* base/ contient les fichiers qui définissent
 les fondations du site, comme la police de caractères 
@@ -280,13 +273,12 @@ body {
 }
 
 h1 {
-  font-family: "shrikhandregular";
+  font-family: "Shrikhand";
 }
 
 @media screen and (min-width: 1440px) {
   .wrapper__restaurants__texte__gauche {
     margin-left: 0%;
-    width: fit-content;
     display: flex;
   }
 }
@@ -376,6 +368,7 @@ html {
 
 .menu {
   background-color: #f6f6f6;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 @media screen and (min-width: 1440px) {
   .menu {
@@ -385,7 +378,6 @@ html {
     position: relative;
     top: -50px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
   }
 }
 @media screen and (min-width: 768px) {
@@ -407,6 +399,7 @@ html {
   align-content: center;
   justify-content: center;
   padding: 0 1rem;
+  margin: 20px;
 }
 @media screen and (min-width: 768px) {
   .liste {
@@ -463,10 +456,6 @@ html {
 }
 
 /*Buttons*/
-.brandLogo {
-  font-family: "Shrikhand", "cursive";
-}
-
 .header__arrow {
   position: absolute;
   left: 2rem;
@@ -770,6 +759,22 @@ footer > h2 {
   }
   100% {
     transform: translateY(0);
+  }
+}
+@media screen and (max-width: 768px) {
+  .liste {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .titre {
+    margin: 20px;
+  }
+
+  .menu__desserts, .menu__plats, .menu__entrees {
+    width: 100%;
   }
 }
 /* layout/ dossier où mettre blocs BEM, contient ce qui est réutilisable */
@@ -809,13 +814,12 @@ body {
 }
 
 h1 {
-  font-family: "shrikhandregular";
+  font-family: "Shrikhand";
 }
 
 @media screen and (min-width: 1440px) {
   .wrapper__restaurants__texte__gauche {
     margin-left: 0%;
-    width: fit-content;
     display: flex;
   }
 }
@@ -905,6 +909,7 @@ html {
 
 .menu {
   background-color: #f6f6f6;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 @media screen and (min-width: 1440px) {
   .menu {
@@ -914,7 +919,6 @@ html {
     position: relative;
     top: -50px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
   }
 }
 @media screen and (min-width: 768px) {
@@ -936,6 +940,7 @@ html {
   align-content: center;
   justify-content: center;
   padding: 0 1rem;
+  margin: 20px;
 }
 @media screen and (min-width: 768px) {
   .liste {
@@ -992,10 +997,6 @@ html {
 }
 
 /*Buttons*/
-.brandLogo {
-  font-family: "Shrikhand", "cursive";
-}
-
 .header__arrow {
   position: absolute;
   left: 2rem;
@@ -1299,6 +1300,22 @@ footer > h2 {
   }
   100% {
     transform: translateY(0);
+  }
+}
+@media screen and (max-width: 768px) {
+  .liste {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .titre {
+    margin: 20px;
+  }
+
+  .menu__desserts, .menu__plats, .menu__entrees {
+    width: 100%;
   }
 }
 .btn--nouveau {
@@ -1349,21 +1366,21 @@ header {
   background-color: white;
 }
 header h1 {
-  font-family: "shrikhandregular";
+  font-family: "Shrikhand";
   font-size: 48px;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   color: black;
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section > h1 {
-  font-family: "shrikhandregular";
+  font-family: "Shrikhand";
   font-size: 48px;
   font-weight: 400;
   font-style: normal;
@@ -1400,24 +1417,24 @@ footer {
   background-color: #353535;
 }
 footer > h1 {
-  font-family: "shrikhandregular";
+  font-family: "Shrikhand";
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
   text-align: left;
   color: white;
-  width: 90%;
+  width: 100%;
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 footer > h2 {
-  width: 90%;
+  width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 footer > h2 i {
   margin-right: 12px;
@@ -1461,13 +1478,12 @@ body {
 }
 
 h1 {
-  font-family: "shrikhandregular";
+  font-family: "Shrikhand";
 }
 
 @media screen and (min-width: 1440px) {
   .wrapper__restaurants__texte__gauche {
     margin-left: 0%;
-    width: fit-content;
     display: flex;
   }
 }
@@ -1557,6 +1573,7 @@ html {
 
 .menu {
   background-color: #f6f6f6;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
 }
 @media screen and (min-width: 1440px) {
   .menu {
@@ -1566,7 +1583,6 @@ html {
     position: relative;
     top: -50px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1588,6 +1604,7 @@ html {
   align-content: center;
   justify-content: center;
   padding: 0 1rem;
+  margin: 20px;
 }
 @media screen and (min-width: 768px) {
   .liste {
@@ -1644,10 +1661,6 @@ html {
 }
 
 /*Buttons*/
-.brandLogo {
-  font-family: "Shrikhand", "cursive";
-}
-
 .header__arrow {
   position: absolute;
   left: 2rem;
@@ -1953,6 +1966,22 @@ footer > h2 {
     transform: translateY(0);
   }
 }
+@media screen and (max-width: 768px) {
+  .liste {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .titre {
+    margin: 20px;
+  }
+
+  .menu__desserts, .menu__plats, .menu__entrees {
+    width: 100%;
+  }
+}
 .btn--nouveau {
   width: 23%;
   height: 35px;
@@ -2001,21 +2030,21 @@ header {
   background-color: white;
 }
 header h1 {
-  font-family: "shrikhandregular";
+  font-family: "Shrikhand";
   font-size: 48px;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   color: black;
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section > h1 {
-  font-family: "shrikhandregular";
+  font-family: "Shrikhand";
   font-size: 48px;
   font-weight: 400;
   font-style: normal;
@@ -2052,24 +2081,24 @@ footer {
   background-color: #353535;
 }
 footer > h1 {
-  font-family: "shrikhandregular";
+  font-family: "Shrikhand";
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
   text-align: left;
   color: white;
-  width: 90%;
+  width: 100%;
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 footer > h2 {
-  width: 90%;
+  width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 footer > h2 i {
   margin-right: 12px;
@@ -2118,27 +2147,27 @@ footer > h2 i {
 }
 .wrapper__intro__02 {
   padding-top: 20px;
-  width: 90%;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 700;
   font-size: 1.4rem;
 }
 .wrapper__intro__03 {
-  width: 90%;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .wrapper__intro__04 {
-  width: 90%;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
   background: linear-gradient(#FF79DA, #9356DC);
   color: white;
   width: 60%;
@@ -2158,31 +2187,31 @@ footer > h2 i {
   padding-bottom: 30px;
 }
 .wrapper__steps > h2 {
-  width: 90%;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 700;
   font-size: 1.4rem;
 }
 .wrapper__steps ol {
-  width: 90%;
+  width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .wrapper__steps ol i {
   margin-right: 15px;
   margin-left: 20px;
 }
 .wrapper__steps ol li {
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #e6e6e6;
   color: "Roboto", sans-serif;
   height: 18px;
@@ -2220,11 +2249,11 @@ footer > h2 i {
 .wrapper__restaurants article {
   position: relative;
   max-width: 400px;
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .wrapper__restaurants article .btn--nouveau {
   width: 23%;
@@ -2240,11 +2269,11 @@ footer > h2 i {
   color: #278870;
 }
 .wrapper__restaurants > h2 {
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 700;
   font-size: 1.4rem;
 }
@@ -2307,11 +2336,11 @@ footer > h2 i {
   background-color: #f6f6f6;
 }
 #main_wrapper .menu {
-  width: 90%;
+  width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #main_wrapper .menu .menu_commander {
   background: linear-gradient(#FF79DA, #9356DC);
@@ -2322,11 +2351,11 @@ footer > h2 i {
   padding-bottom: 15px;
   border-radius: 23px 23px 23px 23px;
   text-align: center;
-  width: 90%;
+  width: 100%;
   margin-top: 25px;
   margin-bottom: 25px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

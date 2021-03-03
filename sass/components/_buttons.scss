@@ -143,9 +143,6 @@
       padding: 15px;
     }
 
-    .brandLogo {
-      font-family: 'Shrikhand',"cursive";
-    }
 
     .header__arrow {
       position: absolute;
@@ -203,9 +200,6 @@
         font-size: 16px;
       }
     }
-
-
-
 
     .restaurant {
       border-radius: 15px 15px 15px 15px;
@@ -482,5 +476,23 @@
     
     }
 
+    @media screen and (max-width: 768px) {
+      .liste {
+
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+
+      }
+
+      .titre {
+        margin: 20px;
+      }
+
+      .menu__desserts, .menu__plats, .menu__entrees {
+        width: 100%;
+      }
 
 
+    }
