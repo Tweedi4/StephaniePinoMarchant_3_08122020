@@ -1372,11 +1372,11 @@ header h1 {
   font-style: normal;
   text-align: center;
   color: black;
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 section > h1 {
@@ -1423,18 +1423,18 @@ footer > h1 {
   font-style: normal;
   text-align: left;
   color: white;
-  width: 100%;
+  width: 90%;
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 footer > h2 {
-  width: 100%;
+  width: 90%;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 footer > h2 i {
   margin-right: 12px;
@@ -2036,11 +2036,11 @@ header h1 {
   font-style: normal;
   text-align: center;
   color: black;
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 section > h1 {
@@ -2087,18 +2087,18 @@ footer > h1 {
   font-style: normal;
   text-align: left;
   color: white;
-  width: 100%;
+  width: 90%;
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 footer > h2 {
-  width: 100%;
+  width: 90%;
   margin-top: 5px;
   margin-bottom: 5px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 footer > h2 i {
   margin-right: 12px;
@@ -2147,27 +2147,27 @@ footer > h2 i {
 }
 .wrapper__intro__02 {
   padding-top: 20px;
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
   font-weight: 700;
   font-size: 1.4rem;
 }
 .wrapper__intro__03 {
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .wrapper__intro__04 {
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
   background: linear-gradient(#FF79DA, #9356DC);
   color: white;
   width: 60%;
@@ -2187,31 +2187,31 @@ footer > h2 i {
   padding-bottom: 30px;
 }
 .wrapper__steps > h2 {
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
   font-weight: 700;
   font-size: 1.4rem;
 }
 .wrapper__steps ol {
-  width: 100%;
+  width: 90%;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .wrapper__steps ol i {
   margin-right: 15px;
   margin-left: 20px;
 }
 .wrapper__steps ol li {
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: #e6e6e6;
   color: "Roboto", sans-serif;
   height: 18px;
@@ -2249,11 +2249,11 @@ footer > h2 i {
 .wrapper__restaurants article {
   position: relative;
   max-width: 400px;
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .wrapper__restaurants article .btn--nouveau {
   width: 23%;
@@ -2269,11 +2269,11 @@ footer > h2 i {
   color: #278870;
 }
 .wrapper__restaurants > h2 {
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
   font-weight: 700;
   font-size: 1.4rem;
 }
@@ -2336,11 +2336,11 @@ footer > h2 i {
   background-color: #f6f6f6;
 }
 #main_wrapper .menu {
-  width: 100%;
+  width: 90%;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 #main_wrapper .menu .menu_commander {
   background: linear-gradient(#FF79DA, #9356DC);
@@ -2351,11 +2351,11 @@ footer > h2 i {
   padding-bottom: 15px;
   border-radius: 23px 23px 23px 23px;
   text-align: center;
-  width: 100%;
+  width: 90%;
   margin-top: 25px;
   margin-bottom: 25px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
