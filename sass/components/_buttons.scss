@@ -480,9 +480,9 @@ ul {
       box-shadow: $block-shadow;
     }
 
-
-
-
+    .mailAdress {
+      color: #fff;
+    }
 
 
     .confirmation {
@@ -645,6 +645,12 @@ ul {
 
       .menu__desserts, .menu__plats, .menu__entrees {
         width: 100%;
+      }
+
+      #main_wrapper .menu {
+        width: 100% !important;
+        margin: 0 !important;
+
       }
 
     }
